@@ -1,2 +1,3 @@
 nasm -f bin boot.asm -o boot.bin
-qemu-system-i386 -fda boot.bin
+dd if=boot.bin of=os.img
+qemu-system-i386 -fda os.img
