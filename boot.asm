@@ -19,9 +19,23 @@ mov al, 'e'
 int 0x10
 mov al, 't'
 int 0x10
-mov al, '.'
+mov al, ' '
 int 0x10
-mov al, '.'
+mov al, 'I.'
+int 0x10
+mov al, 's'
+int 0x10
+mov al, ' '
+int 0x10
+mov al, 'W'
+int 0x10
+mov al, 'h'
+int 0x10
+mov al, 'e'
+int 0x10
+mov al, 'r'
+int 0x10
+mov al, 'e'
 int 0x10
 mov al, '?'
 int 0x10
